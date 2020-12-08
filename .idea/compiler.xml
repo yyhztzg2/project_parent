@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="project_pojo_test" />
+        <module name="project_common_db" />
+        <module name="project_service_test" />
+        <module name="project_eureka" />
+        <module name="project_common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="project_common" target="1.8" />
+      <module name="project_common_db" target="1.8" />
+      <module name="project_eureka" target="1.8" />
+      <module name="project_parent" target="1.8" />
+      <module name="project_pojo_test" target="1.8" />
+      <module name="project_service_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="project_common" options="-parameters" />
+      <module name="project_common_db" options="-parameters" />
+      <module name="project_eureka" options="-parameters" />
+      <module name="project_pojo_test" options="-parameters" />
+      <module name="project_service_test" options="-parameters" />
+    </option>
+  </component>
+</project>

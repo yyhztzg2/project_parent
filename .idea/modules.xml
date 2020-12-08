@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/project_common/project_common.iml" filepath="$PROJECT_DIR$/project_common/project_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project_common_db/project_common_db.iml" filepath="$PROJECT_DIR$/project_common_db/project_common_db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project_eureka/project_eureka.iml" filepath="$PROJECT_DIR$/project_eureka/project_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project_parent.iml" filepath="$PROJECT_DIR$/project_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project_pojo_test/project_pojo_test.iml" filepath="$PROJECT_DIR$/project_pojo_test/project_pojo_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project_service_test/project_service_test.iml" filepath="$PROJECT_DIR$/project_service_test/project_service_test.iml" />
+    </modules>
+  </component>
+</project>
